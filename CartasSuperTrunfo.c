@@ -20,14 +20,15 @@ int main() {
     int pnt_turisticos;
 
     //print e leitura de dados
+    
+    printf("Insira o nome da cidade: \n");
+    fgets(nome_cidade,25,stdin);
+
     printf("Insira o estado da cidade (A-H): \n");
     scanf("%c", estado);
 
     printf("Insira o código da cidade (1-4): \n");
     scanf("%s", codigo_cidade);
-
-    printf("Insira o nome da cidade: \n");
-    scanf("%[^\n]%*c",nome_cidade);
 
     printf("Insira a população da cidade: \n");
     scanf("%d", &populacao);
