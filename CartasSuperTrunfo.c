@@ -23,7 +23,7 @@ int main() {
     scanf("%d", &codigo_cidade);
 
     printf("Insira o nome da cidade: \n");
-    scanf("%s", &nome_cidade);
+    scanf("%s", nome_cidade);
 
     printf("Insira a população da cidade: \n");
     scanf("%f", &populacao);
