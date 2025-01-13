@@ -21,7 +21,7 @@ int main() {
 
     //print e leitura de dados
     printf("Insira o código da cidade (A-H): \n");
-    scanf("%S", estado);
+    scanf("%s", estado);
 
     printf("Insira o código da cidade (1-4): \n");
     scanf("%s", codigo_cidade);
