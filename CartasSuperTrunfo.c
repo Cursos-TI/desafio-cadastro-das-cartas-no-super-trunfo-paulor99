@@ -11,22 +11,26 @@ int main() {
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
     //variaveis
-    int codigo_cidade;
+    char estado;
+    char codigo_cidade[2];
     char nome_cidade[25];
-    float populacao;
+    int populacao;
     float area;
     float pib;
     int pnt_turisticos;
 
     //print e leitura de dados
+    printf("Insira o código da cidade (A-H): \n");
+    scanf("%S", estado);
+
     printf("Insira o código da cidade: \n");
-    scanf("%d", &codigo_cidade);
+    scanf("%s", codigo_cidade);
 
     printf("Insira o nome da cidade: \n");
     scanf("%s", nome_cidade);
 
     printf("Insira a população da cidade: \n");
-    scanf("%f", &populacao);
+    scanf("%d", &populacao);
 
     printf("Insira a área da cidade \n");
     scanf("%f", &area);
@@ -38,9 +42,10 @@ int main() {
     scanf("%d", &pnt_turisticos);
 
     //Exibição dos dados
-    printf("Código da cidade: %d \n", codigo_cidade);
+    printf("Estado da cidade: %s \n", estado);
+    printf("Código da cidade: %s \n", codigo_cidade);
     printf("Nome da cidade: %s \n", nome_cidade);
-    printf("População da cidade: %.3f \n", populacao);
+    printf("População da cidade: %d \n", populacao);
     printf("Área da cidade: %.2f \n", area);
     printf("PIB da cidade: %f \n", pib);
     printf("Número de pontos turísticos: %d \n", pnt_turisticos);
