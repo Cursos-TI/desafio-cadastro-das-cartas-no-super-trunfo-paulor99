@@ -32,7 +32,7 @@ int main() {
     scanf("%f", &area);
 
     printf("Insira o pib da cidade: \n");
-    scanf("%d", &pib);
+    scanf("%f", &pib);
 
     printf("Insira o número de pontos turisticos: \n");
     scanf("%d", &pnt_turisticos);
