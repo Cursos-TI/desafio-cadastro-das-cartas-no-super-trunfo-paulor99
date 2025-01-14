@@ -55,7 +55,7 @@ int main() {
     printf("Nome da cidade: %s \n", nome_cidade);
     printf("População da cidade: %d \n", populacao);
     printf("Área da cidade: %.2f \n", area);
-    printf("PIB da cidade: %f \n", pib);
+    printf("PIB da cidade: %.2f \n", pib);
     printf("Número de pontos turísticos: %d \n", pnt_turisticos);
     printf("Densidade populacional: %.2f \n", densidade_populacional);
     printf("PIB per capita: %.2f \n", pib_per_capita);
