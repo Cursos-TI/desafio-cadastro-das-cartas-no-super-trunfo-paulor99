@@ -26,7 +26,6 @@ int main() {
     printf("Insira o nome da cidade: \n");
     fgets(nome_cidade,25,stdin);
 
-
     printf("Insira o estado da cidade (A-H): \n");
     scanf("%c", estado);
 
