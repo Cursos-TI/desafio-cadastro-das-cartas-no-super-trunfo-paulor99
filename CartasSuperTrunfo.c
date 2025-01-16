@@ -32,7 +32,7 @@ int main() {
     fgets(nome_cidade,25,stdin);
 
     
-    //Tive que colocar aqui a leitura do nome da cidade 2, pois seu eu colocar mais pra baixo não lê nome da cidade 2S
+    //Tive que colocar aqui a leitura do nome da cidade 2, pois seu eu colocar mais pra baixo não lê o nome da cidade 2
     printf("Insira o nome da cidade 2: \n");
     fgets(nome_cidade2,sizeof(nome_cidade2),stdin);
      
